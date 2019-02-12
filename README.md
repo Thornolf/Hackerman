@@ -12,5 +12,6 @@ It will get password in the dictionnary contained in a .txt file and compare it 
 
 It will generate possible combinaison from a given string containing multiple symbol.
 
+## Contact
 
 If any question contact me at thornolf@hackerman.com
