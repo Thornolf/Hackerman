@@ -34,9 +34,7 @@ def enumeration(password = "", list)
       # On test chaque mot de passe pour voir si il est dans la liste
       list.each do |hash|
         if(Digest::MD5.hexdigest(new_password) == hash)
-          puts "Before : #{$password_list}\n"
           $password_list.delete(hash)
-          puts "After : #{$password_list}\n"
           puts "Password : #{new_password} | MD5: #{hash}"
         end
       end
